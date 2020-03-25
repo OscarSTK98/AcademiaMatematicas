@@ -1,0 +1,88 @@
+.barra {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  border: 4px solid #88313d;
+
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+}
+
+li a.active {
+  background-color: #b3b0b0 ;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #b3b0b0 ;
+  color: white;
+}
+
+footer
+{
+    margin-top:50px;
+    width:100%;
+    height:200px;
+    background-color:#671e31;
+}
+.Logos{
+    
+    width: 120px;
+    height: 120px;
+    
+}
+
+body{
+    
+    background-color: #f3f0f0;
+}
+
+#Preguntas{
+    
+  background: #e5e5e5;
+  height: 200px;
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Contenido{
+    
+    background: white;
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    border-bottom: 6px solid #88313d;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#Top{
+    
+    background: #88313d;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+#Bottom{
+    background: #88313d;
+    width: 700px;
+    height: 70px;
+    border-radius: 12px;
+    position: relative;
+    bottom: -183px;
+    
+    
+}
